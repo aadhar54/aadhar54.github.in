@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #10b981;
+  --off-white: #f3f4f6;
+  --dark-gray: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/** link **/
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.5rem;
+  max-width: 150px;
+  text-align: center;
+  display: block;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  text-align: center;
+  max-width: 150px;
+  display: block;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+/** navigation **/
+.navigation {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: white;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  padding: 1rem 0;
+}
+
+.navigation .link {
+  color: white;
+}
+
+/** list **/
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/** hero **/
+.hero {
+  padding: 2rem;
+  padding-top: 6rem;
+}
+
+.hero-img {
+  max-width: 80%;
+  width: 600px;
+  margin: auto;
+  display: block;
+}
+
+.heading {
+  text-align: center;
+  padding: 1rem;
+  color: var(--dark-gray);
+}
+
+.heading span {
+  color: var(--primary-color);
+}
+
+/** section **/
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section p {
+  padding: 1rem 0;
+}
+
+.section .link {
+  padding: 0.5rem;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+/** footer **/
+.footer {
+  padding: 4rem 1rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  border-top-right-radius: 1rem;
+}
+
+.footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .link {
+  color: white;
+  display: inline-block;
+  padding: 1rem;
+}

@@ -149,3 +149,17 @@ body {
   display: inline-block;
   padding: 1rem;
 }
+
+/** projects **/
+.section-projects {
+  padding: 2rem;
+}
+
+.section-projects small {
+  padding: 1rem 0;
+  display: block;
+}
+
+.section-projects .link {
+  margin: 1rem 0;
+}

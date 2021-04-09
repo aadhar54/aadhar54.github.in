@@ -151,15 +151,15 @@ body {
 }
 
 /** projects **/
-.section-projects {
+.section-homeless {
   padding: 2rem;
 }
 
-.section-projects small {
+.section-homeless small {
   padding: 1rem 0;
   display: block;
 }
 
-.section-projects .link {
+.section-homeless .link {
   margin: 1rem 0;
 }
